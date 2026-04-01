@@ -36,6 +36,6 @@ C++
 Docker
 
 ## Run Locally
-frontend + backend integration : stock-trading-simulator-gamma.vercel.app
+frontend + backend integration : [stock-trading-simulator-gamma.vercel.app](https://stock-trading-simulator-gamma.vercel.app/login)
 
 for C++ to work run it locally : ./engine 
