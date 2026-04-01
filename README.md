@@ -36,6 +36,6 @@ C++
 Docker
 
 ## Run Locally
+frontend + backend integration : stock-trading-simulator-gamma.vercel.app
 
-```bash
-docker-compose up --build
+for C++ to work run it locally : ./engine 
