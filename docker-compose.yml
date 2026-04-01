@@ -1,0 +1,26 @@
+version: '3'
+
+services:
+
+  backend:
+    build: ./backend
+    ports:
+      - "8000:8000"
+    depends_on:
+      - mongo
+      - engine
+
+  engine:
+    build: ./engine
+    ports:
+      - "9000:9000"
+
+  frontend:
+    build: ./frontend
+    ports:
+      - "5173:5173"
+
+  mongo:
+    image: mongo
+    ports:
+      - "27017:27017"
